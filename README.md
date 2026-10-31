@@ -77,6 +77,6 @@ El script espera hasta 60 segundos a que la API esté disponible. La primera lla
 | bicicletas | 42 | 33 | 9 |
 | despachos | 42 | 33 | 9 |
 
-Ver [reglas por fuente](docs/REGLAS_DATOS.md) y [captura de la demostración](evidencia/dashboard.png). Los conteos del lateral acumulan ejecuciones; el gráfico corresponde a la última de la fuente seleccionada. La automatización incluye PostgreSQL, pero todavía no se ha ejecutado en GitHub para este candidato.
+Ver [reglas por fuente](docs/REGLAS_DATOS.md) y [captura de la demostración](evidencia/dashboard.png). Los conteos del lateral acumulan ejecuciones; el gráfico corresponde a la última de la fuente seleccionada. La automatización ejecuta la suite con PostgreSQL aislado. Consultar [GitHub Actions](https://github.com/amaravenam-ai/masterbike-data-pipeline/actions) para el estado de cada commit publicado.
 
 ![Dashboard con datos sintéticos](evidencia/dashboard.png)

@@ -1,8 +1,8 @@
 {
   "date": "2026-10-31",
-  "publication": "NO_PUBLICADO",
-  "status": "PREPARADO_PARA_REVISION_DEL_TITULAR",
-  "selected_files_excluding_this_summary_sha256": "f269df5ee1f4f75519d85c2d681a884e8a7fad850020772be6feff3edd58045e",
+  "publication": "PUBLICADO",
+  "status": "PUBLICADO_CON_EVIDENCIA_LOCAL_Y_CI",
+  "selected_files_excluding_this_summary_sha256": "2a0bfa7e14b486c4cfce64555370702e98f768369b6c33fb648e07d1bf44e233",
   "evidence": {
     "tests_passed": 74,
     "tests_skipped": 0,
@@ -58,8 +58,9 @@
       "Logs y algunas métricas en memoria no sobreviven al reinicio",
       "Advertencias de deprecación documentadas",
       "SQLAlchemy crea tablas; SQL de referencia sin migraciones versionadas",
-      "No entrena modelos ni consume directamente las API de microservicios",
-      "CI preparada con PostgreSQL, aún no ejecutada en GitHub para este candidato"
-    ]
+      "No entrena modelos ni consume directamente las API de microservicios"
+    ],
+    "ci_verified_commit": "fd76deaa886d88102887e37656f0d27d48c0eeb3",
+    "ci_verified_run": "https://github.com/amaravenam-ai/masterbike-data-pipeline/actions/runs/41224239704"
   }
 }
