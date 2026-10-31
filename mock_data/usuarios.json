@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "nombre": "Persona Demo 1",
+    "correo": "persona1@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 2,
+    "nombre": "Persona Demo 2",
+    "correo": "persona2@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 3,
+    "nombre": "Persona Demo 3",
+    "correo": "persona3@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 4,
+    "nombre": "Persona Demo 4",
+    "correo": "persona4@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 5,
+    "nombre": "Persona Demo 5",
+    "correo": "persona5@example.invalid",
+    "rol": "tecnico"
+  },
+  {
+    "id": 6,
+    "nombre": "Persona Demo 6",
+    "correo": "persona6@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 7,
+    "nombre": "",
+    "correo": "persona7@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 8,
+    "nombre": "Persona Demo 8",
+    "correo": "correo-invalido",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 9,
+    "nombre": "Persona Demo 9",
+    "correo": "persona9@example.invalid",
+    "rol": "ROL_INVALIDO"
+  },
+  {
+    "id": null,
+    "nombre": "Persona Demo None",
+    "correo": "personaNone@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 10,
+    "nombre": "Persona Demo 10",
+    "correo": "persona10@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 11,
+    "nombre": "Persona Demo 11",
+    "correo": "persona11@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 12,
+    "nombre": "Persona Demo 12",
+    "correo": "persona12@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 13,
+    "nombre": "Persona Demo 13",
+    "correo": "persona13@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 14,
+    "nombre": "Persona Demo 14",
+    "correo": "persona14@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 15,
+    "nombre": "Persona Demo 15",
+    "correo": "persona15@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 16,
+    "nombre": "Persona Demo 16",
+    "correo": "persona16@example.invalid",
+    "rol": "vendedor"
+  },
+  {
+    "id": 17,
+    "nombre": "Persona Demo 17",
+    "correo": "persona17@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 18,
+    "nombre": "Persona Demo 18",
+    "correo": "persona18@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 19,
+    "nombre": "Persona Demo 19",
+    "correo": "persona19@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 20,
+    "nombre": "Persona Demo 20",
+    "correo": "persona20@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 21,
+    "nombre": "Persona Demo 21",
+    "correo": "persona21@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 22,
+    "nombre": "Persona Demo 22",
+    "correo": "persona22@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 23,
+    "nombre": "Persona Demo 23",
+    "correo": "persona23@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 24,
+    "nombre": "Persona Demo 24",
+    "correo": "persona24@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 25,
+    "nombre": "Persona Demo 25",
+    "correo": "persona25@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 26,
+    "nombre": "Persona Demo 26",
+    "correo": "persona26@example.invalid",
+    "rol": "Administrador"
+  },
+  {
+    "id": 27,
+    "nombre": "Persona Demo 27",
+    "correo": "persona27@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 28,
+    "nombre": "Persona Demo 28",
+    "correo": "persona28@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 29,
+    "nombre": "Persona Demo 29",
+    "correo": "persona29@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 30,
+    "nombre": "Persona Demo 30",
+    "correo": "persona30@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 31,
+    "nombre": "Persona Demo 31",
+    "correo": "persona31@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 32,
+    "nombre": "Persona Demo 32",
+    "correo": "persona32@example.invalid",
+    "rol": "vendedor"
+  },
+  {
+    "id": 33,
+    "nombre": "Persona Demo 33",
+    "correo": "persona33@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 34,
+    "nombre": "Persona Demo 34",
+    "correo": "persona34@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 35,
+    "nombre": "Persona Demo 35",
+    "correo": "persona35@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 36,
+    "nombre": "Persona Demo 36",
+    "correo": "persona36@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 37,
+    "nombre": "Persona Demo 37",
+    "correo": "persona37@example.invalid",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 38,
+    "nombre": "Persona Demo 38",
+    "correo": "paulacerdamasterbikes.cl",
+    "rol": "VENDEDOR"
+  },
+  {
+    "id": 39,
+    "nombre": "",
+    "correo": "persona39@example.invalid",
+    "rol": "TECNICO"
+  },
+  {
+    "id": 40,
+    "nombre": "Persona Demo 40",
+    "correo": "persona40@example.invalid",
+    "rol": "GERENTE"
+  },
+  {
+    "id": 41,
+    "nombre": "Persona Demo 41",
+    "correo": "persona41@example.invalid",
+    "rol": "ADMINISTRADOR"
+  },
+  {
+    "id": 0,
+    "nombre": "Persona Demo 0",
+    "correo": "persona0@example.invalid",
+    "rol": "VENDEDOR"
+  }
+]

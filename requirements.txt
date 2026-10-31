@@ -1,0 +1,15 @@
+# ── Core Web Framework ────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ── Base de Datos ────────────────────────────────────────────
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+
+# ── Validación y Configuración ────────────────────────────────
+pydantic==2.9.2
+python-dotenv==1.0.1
+psutil==6.0.0
+
+# ── Tests ────────────────────────────────────────────────────
+pytest==8.3.3

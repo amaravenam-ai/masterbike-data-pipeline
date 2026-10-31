@@ -1,0 +1,31 @@
+name: portfolio-pipeline
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: portfolio_pipeline
+      POSTGRES_USER: portfolio
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Defina una clave local en .env}
+    ports:
+      - "127.0.0.1:55437:5432"
+    volumes:
+      - portfolio_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U portfolio -d portfolio_pipeline"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://portfolio:${POSTGRES_PASSWORD:?Defina una clave local en .env}@postgres:5432/portfolio_pipeline
+      MOCK_DATA_PATH: /app/mock_data
+    ports:
+      - "127.0.0.1:8097:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  portfolio_pg:

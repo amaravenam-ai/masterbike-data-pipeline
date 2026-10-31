@@ -1,0 +1,332 @@
+[
+  {
+    "name": "pip",
+    "version": "25.0.1",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Homepage, https://pip.pypa.io/",
+      "Documentation, https://pip.pypa.io",
+      "Source, https://github.com/pypa/pip",
+      "Changelog, https://pip.pypa.io/en/stable/news/"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Changes, https://click.palletsprojects.com/page/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://click.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/click/"
+    ]
+  },
+  {
+    "name": "psutil",
+    "version": "6.0.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": []
+  },
+  {
+    "name": "pytest",
+    "version": "8.3.3",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Changelog, https://docs.pytest.org/en/stable/changelog.html",
+      "Homepage, https://docs.pytest.org/en/latest/",
+      "Source, https://github.com/pytest-dev/pytest",
+      "Tracker, https://github.com/pytest-dev/pytest/issues",
+      "Twitter, https://twitter.com/pytestdotorg"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "license": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://anyio.readthedocs.io/en/latest/",
+      "Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html",
+      "Source code, https://github.com/agronholm/anyio",
+      "Issue tracker, https://github.com/agronholm/anyio/issues"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license": "PSF-2.0",
+    "license_classifiers": [],
+    "project_urls": [
+      "Bug Tracker, https://github.com/python/typing_extensions/issues",
+      "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+      "Documentation, https://typing-extensions.readthedocs.io/",
+      "Home, https://github.com/python/typing_extensions",
+      "Q & A, https://github.com/python/typing/discussions",
+      "Repository, https://github.com/python/typing_extensions"
+    ]
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.30.6",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/encode/uvicorn/blob/master/CHANGELOG.md",
+      "Funding, https://github.com/sponsors/encode",
+      "Homepage, https://www.uvicorn.org/",
+      "Source, https://github.com/encode/uvicorn"
+    ]
+  },
+  {
+    "name": "starlette",
+    "version": "0.38.6",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/encode/starlette",
+      "Documentation, https://www.starlette.io/",
+      "Changelog, https://www.starlette.io/release-notes/",
+      "Funding, https://github.com/sponsors/encode",
+      "Source, https://github.com/encode/starlette"
+    ]
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": []
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.23.4",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/pydantic/pydantic-core",
+      "Funding, https://github.com/sponsors/samuelcolvin",
+      "Source, https://github.com/pydantic/pydantic-core"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+      "Issue tracker, https://github.com/kjd/idna/issues",
+      "Source, https://github.com/kjd/idna"
+    ]
+  },
+  {
+    "name": "greenlet",
+    "version": "3.5.6",
+    "license": "MIT AND PSF-2.0",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://greenlet.readthedocs.io",
+      "Documentation, https://greenlet.readthedocs.io",
+      "Repository, https://github.com/python-greenlet/greenlet",
+      "Issues, https://github.com/python-greenlet/greenlet/issues",
+      "Changelog, https://greenlet.readthedocs.io/en/latest/changes.html"
+    ]
+  },
+  {
+    "name": "websockets",
+    "version": "17.4",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://github.com/python-websockets/websockets",
+      "Changelog, https://websockets.readthedocs.io/en/stable/project/changelog.html",
+      "Documentation, https://websockets.readthedocs.io/",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-websockets?utm_source=pypi-websockets&utm_medium=referral&utm_campaign=readme",
+      "Tracker, https://github.com/python-websockets/websockets/issues"
+    ]
+  },
+  {
+    "name": "uvloop",
+    "version": "0.23.0",
+    "license": "MIT License",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License",
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "github, https://github.com/MagicStack/uvloop"
+    ]
+  },
+  {
+    "name": "python-dotenv",
+    "version": "1.0.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "project_urls": []
+  },
+  {
+    "name": "fastapi",
+    "version": "0.115.0",
+    "license": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/fastapi/fastapi",
+      "Documentation, https://fastapi.tiangolo.com/",
+      "Repository, https://github.com/fastapi/fastapi",
+      "Issues, https://github.com/fastapi/fastapi/issues",
+      "Changelog, https://fastapi.tiangolo.com/release-notes/"
+    ]
+  },
+  {
+    "name": "watchfiles",
+    "version": "1.3.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Changelog, https://github.com/samuelcolvin/watchfiles/releases",
+      "Documentation, https://watchfiles.helpmanual.io",
+      "Funding, https://github.com/sponsors/samuelcolvin",
+      "Homepage, https://github.com/samuelcolvin/watchfiles",
+      "Source, https://github.com/samuelcolvin/watchfiles"
+    ]
+  },
+  {
+    "name": "pluggy",
+    "version": "1.7.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/pytest-dev/pluggy",
+      "Documentation, https://pluggy.readthedocs.io/",
+      "Changelog, https://pluggy.readthedocs.io/en/latest/changelog.html",
+      "Repository, https://github.com/pytest-dev/pluggy",
+      "Issues, https://github.com/pytest-dev/pluggy/issues",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-pluggy"
+    ]
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/annotated-types/annotated-types",
+      "Source, https://github.com/annotated-types/annotated-types",
+      "Changelog, https://github.com/annotated-types/annotated-types/releases"
+    ]
+  },
+  {
+    "name": "psycopg2-binary",
+    "version": "2.9.9",
+    "license": "LGPL with exceptions",
+    "license_classifiers": [
+      "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)"
+    ],
+    "project_urls": [
+      "Homepage, https://psycopg.org/",
+      "Documentation, https://www.psycopg.org/docs/",
+      "Code, https://github.com/psycopg/psycopg2",
+      "Issue Tracker, https://github.com/psycopg/psycopg2/issues",
+      "Download, https://pypi.org/project/psycopg2/"
+    ]
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.1",
+    "license": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://github.com/pytest-dev/iniconfig"
+    ]
+  },
+  {
+    "name": "pydantic",
+    "version": "2.9.2",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Homepage, https://github.com/pydantic/pydantic",
+      "Documentation, https://docs.pydantic.dev",
+      "Funding, https://github.com/sponsors/samuelcolvin",
+      "Source, https://github.com/pydantic/pydantic",
+      "Changelog, https://docs.pydantic.dev/latest/changelog/"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "license_classifiers": [],
+    "project_urls": [
+      "Documentation, https://packaging.pypa.io/",
+      "Source, https://github.com/pypa/packaging"
+    ]
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+      "CI, https://github.com/yaml/pyyaml/actions",
+      "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+      "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+      "Source Code, https://github.com/yaml/pyyaml"
+    ]
+  },
+  {
+    "name": "httptools",
+    "version": "0.9.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "project_urls": [
+      "Homepage, https://github.com/MagicStack/httptools"
+    ]
+  },
+  {
+    "name": "SQLAlchemy",
+    "version": "2.0.35",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "project_urls": [
+      "Documentation, https://docs.sqlalchemy.org",
+      "Issue Tracker, https://github.com/sqlalchemy/sqlalchemy/"
+    ]
+  }
+]

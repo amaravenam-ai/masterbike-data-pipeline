@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "id_cliente": 1,
+    "id_bicicleta": 1,
+    "fecha_inicio": "2026-04-22",
+    "fecha_fin": "2026-04-23",
+    "costo": 18000.0
+  },
+  {
+    "id": 2,
+    "id_cliente": 2,
+    "id_bicicleta": 2,
+    "fecha_inicio": "2026-04-24",
+    "fecha_fin": "2026-04-24",
+    "costo": 11000.0
+  },
+  {
+    "id": 3,
+    "id_cliente": 3,
+    "id_bicicleta": 1,
+    "fecha_inicio": "2026-04-25",
+    "fecha_fin": "2026-04-26",
+    "costo": 22000.0
+  },
+  {
+    "id": 4,
+    "id_cliente": 4,
+    "id_bicicleta": 3,
+    "fecha_inicio": "2026-04-27",
+    "fecha_fin": "2026-04-28",
+    "costo": 14000.0
+  },
+  {
+    "id": 5,
+    "id_cliente": 5,
+    "id_bicicleta": 2,
+    "fecha_inicio": "2026-04-29",
+    "fecha_fin": "2026-04-30",
+    "costo": 16500.0
+  },
+  {
+    "id": 6,
+    "id_cliente": null,
+    "id_bicicleta": 1,
+    "fecha_inicio": "2026-05-01",
+    "fecha_fin": "2026-05-02",
+    "costo": 9000.0
+  },
+  {
+    "id": 7,
+    "id_cliente": 2,
+    "id_bicicleta": null,
+    "fecha_inicio": "2026-05-03",
+    "fecha_fin": "2026-05-04",
+    "costo": 11000.0
+  },
+  {
+    "id": 8,
+    "id_cliente": 3,
+    "id_bicicleta": 2,
+    "fecha_inicio": "2026-05-06",
+    "fecha_fin": "2026-05-05",
+    "costo": 7000.0
+  },
+  {
+    "id": 9,
+    "id_cliente": 1,
+    "id_bicicleta": 3,
+    "fecha_inicio": "2026-05-07",
+    "fecha_fin": "2026-05-09",
+    "costo": -500.0
+  },
+  {
+    "id": 10,
+    "id_cliente": 5,
+    "id_bicicleta": 1,
+    "fecha_inicio": "2026-05-10",
+    "fecha_fin": "2026-05-11",
+    "costo": 13500.0
+  },
+  {
+    "id": 11,
+    "id_cliente": 6,
+    "id_bicicleta": 4,
+    "fecha_inicio": "2026-05-12",
+    "fecha_fin": "2026-05-13",
+    "costo": 19200.0
+  },
+  {
+    "id": 12,
+    "id_cliente": 7,
+    "id_bicicleta": 5,
+    "fecha_inicio": "2026-05-14",
+    "fecha_fin": "2026-05-14",
+    "costo": 15600.0
+  },
+  {
+    "id": 13,
+    "id_cliente": 8,
+    "id_bicicleta": 6,
+    "fecha_inicio": "2026-05-15",
+    "fecha_fin": "2026-05-17",
+    "costo": 28800.0
+  },
+  {
+    "id": 14,
+    "id_cliente": 9,
+    "id_bicicleta": 7,
+    "fecha_inicio": "2026-05-18",
+    "fecha_fin": "2026-05-19",
+    "costo": 21000.0
+  },
+  {
+    "id": 15,
+    "id_cliente": 10,
+    "id_bicicleta": 8,
+    "fecha_inicio": "2026-05-20",
+    "fecha_fin": "2026-05-22",
+    "costo": 36000.0
+  },
+  {
+    "id": 16,
+    "id_cliente": 1,
+    "id_bicicleta": 9,
+    "fecha_inicio": "2026-05-23",
+    "fecha_fin": "2026-05-24",
+    "costo": 17400.0
+  },
+  {
+    "id": 17,
+    "id_cliente": 2,
+    "id_bicicleta": 10,
+    "fecha_inicio": "2026-05-25",
+    "fecha_fin": "2026-05-25",
+    "costo": 12000.0
+  },
+  {
+    "id": 18,
+    "id_cliente": 3,
+    "id_bicicleta": 11,
+    "fecha_inicio": "2026-05-26",
+    "fecha_fin": "2026-05-28",
+    "costo": 25200.0
+  },
+  {
+    "id": 19,
+    "id_cliente": 4,
+    "id_bicicleta": 12,
+    "fecha_inicio": "2026-05-29",
+    "fecha_fin": "2026-05-30",
+    "costo": 22800.0
+  },
+  {
+    "id": 20,
+    "id_cliente": 5,
+    "id_bicicleta": 1,
+    "fecha_inicio": "2026-06-01",
+    "fecha_fin": "2026-06-02",
+    "costo": 18000.0
+  },
+  {
+    "id": 21,
+    "id_cliente": 6,
+    "id_bicicleta": 2,
+    "fecha_inicio": "2026-06-03",
+    "fecha_fin": "2026-06-05",
+    "costo": 33000.0
+  },
+  {
+    "id": 22,
+    "id_cliente": 7,
+    "id_bicicleta": 3,
+    "fecha_inicio": "2026-06-06",
+    "fecha_fin": "2026-06-07",
+    "costo": 14000.0
+  },
+  {
+    "id": 23,
+    "id_cliente": 8,
+    "id_bicicleta": 4,
+    "fecha_inicio": "2026-06-08",
+    "fecha_fin": "2026-06-08",
+    "costo": 19200.0
+  },
+  {
+    "id": 24,
+    "id_cliente": 9,
+    "id_bicicleta": 5,
+    "fecha_inicio": "2026-06-09",
+    "fecha_fin": "2026-06-11",
+    "costo": 46800.0
+  },
+  {
+    "id": 25,
+    "id_cliente": 10,
+    "id_bicicleta": 6,
+    "fecha_inicio": "2026-06-12",
+    "fecha_fin": "2026-06-13",
+    "costo": 19200.0
+  },
+  {
+    "id": 26,
+    "id_cliente": 1,
+    "id_bicicleta": 7,
+    "fecha_inicio": "2026-06-14",
+    "fecha_fin": "2026-06-14",
+    "costo": 13500.0
+  },
+  {
+    "id": 27,
+    "id_cliente": 2,
+    "id_bicicleta": 8,
+    "fecha_inicio": "2026-06-15",
+    "fecha_fin": "2026-06-17",
+    "costo": 24000.0
+  },
+  {
+    "id": 28,
+    "id_cliente": 3,
+    "id_bicicleta": 9,
+    "fecha_inicio": "2026-06-18",
+    "fecha_fin": "2026-06-20",
+    "costo": 26100.0
+  },
+  {
+    "id": 29,
+    "id_cliente": 4,
+    "id_bicicleta": 10,
+    "fecha_inicio": "2026-06-21",
+    "fecha_fin": "2026-06-22",
+    "costo": 24000.0
+  },
+  {
+    "id": 30,
+    "id_cliente": 5,
+    "id_bicicleta": 11,
+    "fecha_inicio": "2026-06-23",
+    "fecha_fin": "2026-06-25",
+    "costo": 37800.0
+  },
+  {
+    "id": 31,
+    "id_cliente": 6,
+    "id_bicicleta": 12,
+    "fecha_inicio": "2026-06-26",
+    "fecha_fin": "2026-06-27",
+    "costo": 22800.0
+  },
+  {
+    "id": 32,
+    "id_cliente": 7,
+    "id_bicicleta": 1,
+    "fecha_inicio": "2026-06-28",
+    "fecha_fin": "2026-06-28",
+    "costo": 9000.0
+  },
+  {
+    "id": 33,
+    "id_cliente": 8,
+    "id_bicicleta": 2,
+    "fecha_inicio": "2026-06-29",
+    "fecha_fin": "2026-07-01",
+    "costo": 33000.0
+  },
+  {
+    "id": 34,
+    "id_cliente": 9,
+    "id_bicicleta": 3,
+    "fecha_inicio": "2026-07-02",
+    "fecha_fin": "2026-07-03",
+    "costo": 14000.0
+  },
+  {
+    "id": 35,
+    "id_cliente": 10,
+    "id_bicicleta": 4,
+    "fecha_inicio": "2026-07-04",
+    "fecha_fin": "2026-07-06",
+    "costo": 57600.0
+  },
+  {
+    "id": 36,
+    "id_cliente": -2,
+    "id_bicicleta": 5,
+    "fecha_inicio": "2026-07-07",
+    "fecha_fin": "2026-07-08",
+    "costo": 15600.0
+  },
+  {
+    "id": 37,
+    "id_cliente": 1,
+    "id_bicicleta": 6,
+    "fecha_inicio": "2026-07-10",
+    "fecha_fin": "2026-07-09",
+    "costo": 19200.0
+  },
+  {
+    "id": 38,
+    "id_cliente": 2,
+    "id_bicicleta": 7,
+    "fecha_inicio": "2026-07-11",
+    "fecha_fin": "2026-07-12",
+    "costo": "gratis"
+  },
+  {
+    "id": 39,
+    "id_cliente": 3,
+    "id_bicicleta": 0,
+    "fecha_inicio": "2026-07-13",
+    "fecha_fin": "2026-07-14",
+    "costo": 21000.0
+  },
+  {
+    "id": 40,
+    "id_cliente": 4,
+    "id_bicicleta": 8,
+    "fecha_inicio": "2026-07-15",
+    "fecha_fin": "25/07/2026",
+    "costo": 24000.0
+  }
+]

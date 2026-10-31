@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-31",
+  "publication": "NO_PUBLICADO",
+  "status": "PREPARADO_PARA_REVISION_DEL_TITULAR",
+  "selected_files_excluding_this_summary_sha256": "f269df5ee1f4f75519d85c2d681a884e8a7fad850020772be6feff3edd58045e",
+  "evidence": {
+    "tests_passed": 74,
+    "tests_skipped": 0,
+    "without_database_tests": 63,
+    "postgres_integration_tests": 11,
+    "warnings": 1295,
+    "python": "3.12.16 Linux",
+    "postgres": "16-alpine",
+    "source_counts": {
+      "ventas": [
+        45,
+        35,
+        10
+      ],
+      "usuarios": [
+        43,
+        35,
+        8
+      ],
+      "inventario": [
+        43,
+        35,
+        8
+      ],
+      "arriendos": [
+        40,
+        31,
+        9
+      ],
+      "bicicletas": [
+        42,
+        33,
+        9
+      ],
+      "despachos": [
+        42,
+        33,
+        9
+      ]
+    },
+    "counts_order": [
+      "total",
+      "valid",
+      "rejected"
+    ],
+    "dashboard": "Chrome; Ejecutar Todos verificado con seis fuentes; captura sintética",
+    "repeated_source": "Nuevo run_id, conserva ejecuciones anteriores",
+    "restart_persistence": "PASS; siete ejecuciones y conteos conservados; reinicio simultáneo recuperado",
+    "database_unavailable": "HTTP 500; no anuncia éxito",
+    "limits": [
+      "Sin autenticación de producción; solo localhost y mismo origen",
+      "Commits por etapa; no atomicidad de lote ni deduplicación",
+      "Logs y algunas métricas en memoria no sobreviven al reinicio",
+      "Advertencias de deprecación documentadas",
+      "SQLAlchemy crea tablas; SQL de referencia sin migraciones versionadas",
+      "No entrena modelos ni consume directamente las API de microservicios",
+      "CI preparada con PostgreSQL, aún no ejecutada en GitHub para este candidato"
+    ]
+  }
+}

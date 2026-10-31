@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterBike Data Pipeline Platform</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────── -->
+<header class="header">
+  <div class="header-brand">
+    <div class="header-logo">⚙️</div>
+    <div>
+      <div class="header-title">MasterBike Data Pipeline</div>
+      <div class="header-subtitle">Plataforma ETL · Ingeniería de Datos</div>
+    </div>
+  </div>
+  <div style="display:flex;gap:1.5rem;align-items:center">
+    <a href="/api/docs" target="_blank" style="color:var(--accent-blue);font-size:0.8rem;text-decoration:none">API Docs ↗</a>
+    <div class="header-status">
+      <div class="status-dot"></div>
+      <span>Demostración local · datos sintéticos</span>
+    </div>
+  </div>
+</header>
+
+<!-- ── Main Layout ──────────────────────────────────────────── -->
+<div class="main-layout">
+
+  <!-- ── Sidebar Izquierdo: Fuentes + Controles ─────────────── -->
+  <aside class="sidebar-left">
+
+    <!-- Fuentes de datos -->
+    <div>
+      <div class="section-title">📡 Fuentes de Datos</div>
+      <div id="source-list"></div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Controles de ejecución -->
+    <div>
+      <div class="section-title">▶ Ejecutar Pipeline</div>
+      <button class="run-btn primary" id="btn-run" onclick="runPipeline()">
+        <div class="spinner" id="spinner-run"></div>
+        <span id="label-run">Ejecutar Pipeline</span>
+      </button>
+      <br><br>
+      <button class="run-btn secondary" id="btn-run-all" onclick="runAll()">
+        <div class="spinner" id="spinner-all" style="border-top-color:var(--accent-purple)"></div>
+        <span id="label-all">Ejecutar Todos</span>
+      </button>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Info del pipeline -->
+    <div>
+      <div class="section-title">ℹ Etapas del Pipeline</div>
+      <div style="font-size:0.75rem;color:var(--text-secondary);line-height:2">
+        <div style="color:#3B82F6">⬤ Fuente de Datos</div>
+        <div style="color:#8B5CF6">⬤ Ingesta</div>
+        <div style="color:#F59E0B">⬤ Validación</div>
+        <div style="color:#F97316">⬤ Transformación</div>
+        <div style="color:#0EA5E9">⬤ PostgreSQL</div>
+        <div style="color:#10B981">⬤ Datos Válidos</div>
+        <div style="color:#EF4444">⬤ Datos Error</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Links rápidos -->
+    <div>
+      <div class="section-title">🔗 Accesos Rápidos</div>
+      <div style="display:flex;flex-direction:column;gap:6px">
+        <a href="/api/docs" target="_blank" class="source-btn" style="text-decoration:none;font-size:0.78rem">
+          📖 Swagger UI
+        </a>
+        <a href="/api/v1/monitoring/health" target="_blank" class="source-btn" style="text-decoration:none;font-size:0.78rem">
+          💚 Health Check
+        </a>
+        <a href="/api/v1/monitoring/stats" target="_blank" class="source-btn" style="text-decoration:none;font-size:0.78rem">
+          📊 Estadísticas
+        </a>
+        <a href="/api/v1/pipeline/status" target="_blank" class="source-btn" style="text-decoration:none;font-size:0.78rem">
+          🔄 Estado Pipeline
+        </a>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ── Centro: Visualización del Pipeline ─────────────────── -->
+  <main class="pipeline-center">
+
+    <!-- Header del pipeline -->
+    <div class="pipeline-header">
+      <div class="pipeline-title">🔄 Flujo ETL en Tiempo Real</div>
+      <span class="pipeline-source-badge" id="active-source-badge">VENTAS</span>
+    </div>
+
+    <!-- SVG del pipeline -->
+    <div class="pipeline-canvas-wrapper">
+      <svg id="pipeline-svg" viewBox="0 0 660 560" preserveAspectRatio="xMidYMid meet">
+        <!-- Dibujado dinámicamente por pipeline.js con datos reales de /api/pipeline/status -->
+      </svg>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-total" style="color:#3B82F6">0</div>
+        <div class="stat-label">Total Registros</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-validos" style="color:#10B981">0</div>
+        <div class="stat-label">Válidos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-errores" style="color:#EF4444">0</div>
+        <div class="stat-label">Errores</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-rate" style="color:#F59E0B">0%</div>
+        <div class="stat-label">Calidad</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-time" style="color:#8B5CF6">-</div>
+        <div class="stat-label">Tiempo (s)</div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── Sidebar Derecho: Logs + Historial ──────────────────── -->
+  <aside class="sidebar-right">
+
+    <!-- Tabs -->
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="logs">📋 Logs</button>
+      <button class="tab-btn" data-tab="runs">⏱ Historial</button>
+    </div>
+
+    <!-- Tab: Logs -->
+    <div class="tab-content active" id="tab-logs">
+      <div id="logs-list">
+        <div style="color:var(--text-muted);font-size:0.8rem;text-align:center;padding:2rem">
+          Ejecuta un pipeline para ver los logs
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab: Historial de runs -->
+    <div class="tab-content" id="tab-runs">
+      <div id="runs-list">
+        <div style="color:var(--text-muted);font-size:0.8rem;text-align:center;padding:2rem">
+          Sin ejecuciones aún
+        </div>
+      </div>
+    </div>
+
+  </aside>
+
+</div>
+
+<!-- Toast container -->
+<div class="toast-container" id="toast-container"></div>
+
+<script src="/static/pipeline.js?v=portfolio3"></script>
+</body>
+</html>

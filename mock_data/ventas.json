@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "id_cliente": 1,
+    "fecha_venta": "2026-04-20",
+    "total": 45990.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 2,
+    "id_cliente": 2,
+    "fecha_venta": "2026-04-21",
+    "total": 129990.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 3,
+    "id_cliente": 3,
+    "fecha_venta": "2026-04-22",
+    "total": 34990.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 4,
+    "id_cliente": 4,
+    "fecha_venta": "2026-04-23",
+    "total": 89990.5,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 5,
+    "id_cliente": 5,
+    "fecha_venta": "2026-04-24",
+    "total": 15990.0,
+    "estado": "cancelada"
+  },
+  {
+    "id": 6,
+    "id_cliente": 1,
+    "fecha_venta": "2026-04-25",
+    "total": 199990.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 7,
+    "id_cliente": 2,
+    "fecha_venta": "2026-04-26",
+    "total": 67500.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 8,
+    "id_cliente": 3,
+    "fecha_venta": "2026-04-28",
+    "total": 22990.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 9,
+    "id_cliente": null,
+    "fecha_venta": "2026-04-29",
+    "total": 50000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 10,
+    "id_cliente": 4,
+    "fecha_venta": "fecha-invalida",
+    "total": 30000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 11,
+    "id_cliente": 5,
+    "fecha_venta": "2026-04-30",
+    "total": -500.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 12,
+    "id_cliente": 1,
+    "fecha_venta": "2026-05-01",
+    "total": 75000.0,
+    "estado": "ESTADO_INVALIDO"
+  },
+  {
+    "id": 13,
+    "id_cliente": 2,
+    "fecha_venta": "2026-05-02",
+    "total": 45000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 14,
+    "id_cliente": 3,
+    "fecha_venta": "2026-05-03",
+    "total": 0.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 15,
+    "id_cliente": 6,
+    "fecha_venta": "2026-05-04",
+    "total": 112500.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 16,
+    "id_cliente": 7,
+    "fecha_venta": "2026-05-05",
+    "total": 58000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 17,
+    "id_cliente": 8,
+    "fecha_venta": "2026-05-06",
+    "total": 142500.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 18,
+    "id_cliente": 9,
+    "fecha_venta": "2026-05-07",
+    "total": 29990.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 19,
+    "id_cliente": 10,
+    "fecha_venta": "2026-05-08",
+    "total": 315000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 20,
+    "id_cliente": 1,
+    "fecha_venta": "2026-05-09",
+    "total": 18500.0,
+    "estado": "CANCELADA"
+  },
+  {
+    "id": 21,
+    "id_cliente": 2,
+    "fecha_venta": "2026-05-10",
+    "total": 87000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 22,
+    "id_cliente": 3,
+    "fecha_venta": "2026-05-11",
+    "total": 54990.0,
+    "estado": "pendiente"
+  },
+  {
+    "id": 23,
+    "id_cliente": 4,
+    "fecha_venta": "2026-05-12",
+    "total": 235000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 24,
+    "id_cliente": 5,
+    "fecha_venta": "2026-05-13",
+    "total": 11500.0,
+    "estado": "CANCELADA"
+  },
+  {
+    "id": 25,
+    "id_cliente": 6,
+    "fecha_venta": "2026-05-14",
+    "total": 73000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 26,
+    "id_cliente": 7,
+    "fecha_venta": "2026-05-15",
+    "total": 168000.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 27,
+    "id_cliente": 8,
+    "fecha_venta": "2026-05-16",
+    "total": 44900.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 28,
+    "id_cliente": 9,
+    "fecha_venta": "2026-05-17",
+    "total": 95500.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 29,
+    "id_cliente": 10,
+    "fecha_venta": "2026-05-18",
+    "total": 32000.0,
+    "estado": "pagada"
+  },
+  {
+    "id": 30,
+    "id_cliente": 1,
+    "fecha_venta": "2026-05-19",
+    "total": 259990.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 31,
+    "id_cliente": 2,
+    "fecha_venta": "2026-05-20",
+    "total": 47500.0,
+    "estado": "CANCELADA"
+  },
+  {
+    "id": 32,
+    "id_cliente": 3,
+    "fecha_venta": "2026-05-21",
+    "total": 185000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 33,
+    "id_cliente": 4,
+    "fecha_venta": "2026-05-22",
+    "total": 62000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 34,
+    "id_cliente": 5,
+    "fecha_venta": "2026-05-23",
+    "total": 39990.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 35,
+    "id_cliente": 6,
+    "fecha_venta": "2026-05-24",
+    "total": 148000.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 36,
+    "id_cliente": 7,
+    "fecha_venta": "2026-05-25",
+    "total": 78500.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 37,
+    "id_cliente": 8,
+    "fecha_venta": "2026-05-26",
+    "total": 125000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 38,
+    "id_cliente": 9,
+    "fecha_venta": "2026-05-27",
+    "total": 210000.0,
+    "estado": "CANCELADA"
+  },
+  {
+    "id": 39,
+    "id_cliente": 10,
+    "fecha_venta": "2026-05-28",
+    "total": 56000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 40,
+    "id_cliente": 1,
+    "fecha_venta": "2026-05-29",
+    "total": 340000.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 41,
+    "id_cliente": "nocliente",
+    "fecha_venta": "2026-05-30",
+    "total": 45000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 42,
+    "id_cliente": 3,
+    "fecha_venta": "2026-06-01",
+    "total": 0.0,
+    "estado": "PENDIENTE"
+  },
+  {
+    "id": 43,
+    "id_cliente": 4,
+    "fecha_venta": "30/06/2026",
+    "total": 55000.0,
+    "estado": "PAGADA"
+  },
+  {
+    "id": 44,
+    "id_cliente": 5,
+    "fecha_venta": "2026-06-02",
+    "total": 89000.0,
+    "estado": "DEVUELTA"
+  },
+  {
+    "id": 45,
+    "id_cliente": 6,
+    "fecha_venta": "2026-06-03",
+    "total": null,
+    "estado": "PAGADA"
+  }
+]

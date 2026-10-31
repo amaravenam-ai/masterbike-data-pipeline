@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "nombre_producto": "Cadena Shimano 10V",
+    "categoria": "Repuesto",
+    "stock": 20,
+    "stock_minimo": 5
+  },
+  {
+    "id": 2,
+    "nombre_producto": "casco urbano negro",
+    "categoria": "Accesorio",
+    "stock": 12,
+    "stock_minimo": 3
+  },
+  {
+    "id": 3,
+    "nombre_producto": "Camara aro 29",
+    "categoria": "Repuesto",
+    "stock": 30,
+    "stock_minimo": 8
+  },
+  {
+    "id": 4,
+    "nombre_producto": "FRENO HIDRAULICO DEORE",
+    "categoria": "Repuesto",
+    "stock": 8,
+    "stock_minimo": 4
+  },
+  {
+    "id": 5,
+    "nombre_producto": "Guantes Ciclismo MTB",
+    "categoria": "Accesorio",
+    "stock": 3,
+    "stock_minimo": 5
+  },
+  {
+    "id": 6,
+    "nombre_producto": "Inflador de pie profesional",
+    "categoria": "Equipamiento",
+    "stock": 6,
+    "stock_minimo": 2
+  },
+  {
+    "id": 7,
+    "nombre_producto": "Cassette Shimano 11-34",
+    "categoria": "Repuesto",
+    "stock": 15,
+    "stock_minimo": 4
+  },
+  {
+    "id": 8,
+    "nombre_producto": "Luz delantera LED",
+    "categoria": "Accesorio",
+    "stock": 0,
+    "stock_minimo": 5
+  },
+  {
+    "id": 9,
+    "nombre_producto": "",
+    "categoria": "Repuesto",
+    "stock": 10,
+    "stock_minimo": 3
+  },
+  {
+    "id": 10,
+    "nombre_producto": "Pedales Flat Aluminio",
+    "categoria": "CATEGORIA_INVALIDA",
+    "stock": 7,
+    "stock_minimo": 2
+  },
+  {
+    "id": 11,
+    "nombre_producto": "Llanta Maxxis Ardent 29",
+    "categoria": "Repuesto",
+    "stock": -5,
+    "stock_minimo": 3
+  },
+  {
+    "id": 12,
+    "nombre_producto": "Mochila Hidratacion 10L",
+    "categoria": "Accesorio",
+    "stock": 9,
+    "stock_minimo": 2
+  },
+  {
+    "id": 13,
+    "nombre_producto": "Desengrasante Cadena 500ml",
+    "categoria": "Equipamiento",
+    "stock": 25,
+    "stock_minimo": 6
+  },
+  {
+    "id": 14,
+    "nombre_producto": "Silla de Ciclismo Pro",
+    "categoria": "Accesorio",
+    "stock": 18,
+    "stock_minimo": 4
+  },
+  {
+    "id": 15,
+    "nombre_producto": "MANUBRIO ALUMINIO 700mm",
+    "categoria": "Repuesto",
+    "stock": 11,
+    "stock_minimo": 3
+  },
+  {
+    "id": 16,
+    "nombre_producto": "candado antirrobo u-lock",
+    "categoria": "Accesorio",
+    "stock": 22,
+    "stock_minimo": 5
+  },
+  {
+    "id": 17,
+    "nombre_producto": "Potencia Ahead 100mm",
+    "categoria": "Repuesto",
+    "stock": 7,
+    "stock_minimo": 2
+  },
+  {
+    "id": 18,
+    "nombre_producto": "Portaequipaje Trasero",
+    "categoria": "Accesorio",
+    "stock": 5,
+    "stock_minimo": 3
+  },
+  {
+    "id": 19,
+    "nombre_producto": "KIT HERRAMIENTAS TALLER",
+    "categoria": "Equipamiento",
+    "stock": 3,
+    "stock_minimo": 1
+  },
+  {
+    "id": 20,
+    "nombre_producto": "Grasa Litio Para Rodamiento",
+    "categoria": "Equipamiento",
+    "stock": 40,
+    "stock_minimo": 10
+  },
+  {
+    "id": 21,
+    "nombre_producto": "palanca desmontable 3 piezas",
+    "categoria": "Equipamiento",
+    "stock": 30,
+    "stock_minimo": 8
+  },
+  {
+    "id": 22,
+    "nombre_producto": "Cambio Trasero Shimano Deore",
+    "categoria": "Repuesto",
+    "stock": 9,
+    "stock_minimo": 3
+  },
+  {
+    "id": 23,
+    "nombre_producto": "Computador de Ruta GPS",
+    "categoria": "Accesorio",
+    "stock": 6,
+    "stock_minimo": 2
+  },
+  {
+    "id": 24,
+    "nombre_producto": "Amortiguador Rockshox 27.5",
+    "categoria": "Repuesto",
+    "stock": 4,
+    "stock_minimo": 2
+  },
+  {
+    "id": 25,
+    "nombre_producto": "Camiseta Ciclismo Manga Corta",
+    "categoria": "Accesorio",
+    "stock": 35,
+    "stock_minimo": 10
+  },
+  {
+    "id": 26,
+    "nombre_producto": "Soporte de Pared Bicicleta",
+    "categoria": "Equipamiento",
+    "stock": 14,
+    "stock_minimo": 4
+  },
+  {
+    "id": 27,
+    "nombre_producto": "PASTILLAS FRENO SHIMANO",
+    "categoria": "Repuesto",
+    "stock": 50,
+    "stock_minimo": 15
+  },
+  {
+    "id": 28,
+    "nombre_producto": "bolsa de sillin impermeable",
+    "categoria": "Accesorio",
+    "stock": 20,
+    "stock_minimo": 5
+  },
+  {
+    "id": 29,
+    "nombre_producto": "Conector Master Cadena KMC",
+    "categoria": "Repuesto",
+    "stock": 100,
+    "stock_minimo": 25
+  },
+  {
+    "id": 30,
+    "nombre_producto": "Hidrogel Energetico Isotrade",
+    "categoria": "Accesorio",
+    "stock": 60,
+    "stock_minimo": 15
+  },
+  {
+    "id": 31,
+    "nombre_producto": "Horquilla Telescopica 29",
+    "categoria": "Repuesto",
+    "stock": 3,
+    "stock_minimo": 1
+  },
+  {
+    "id": 32,
+    "nombre_producto": "Parabarro Trasero Plastico",
+    "categoria": "Accesorio",
+    "stock": 17,
+    "stock_minimo": 5
+  },
+  {
+    "id": 33,
+    "nombre_producto": "LLAVE ALLEN SET 9 PIEZAS",
+    "categoria": "Equipamiento",
+    "stock": 12,
+    "stock_minimo": 3
+  },
+  {
+    "id": 34,
+    "nombre_producto": "cubierta schwalbe marathon 28",
+    "categoria": "Repuesto",
+    "stock": 16,
+    "stock_minimo": 4
+  },
+  {
+    "id": 35,
+    "nombre_producto": "Casco de Ruta Aerodinamico",
+    "categoria": "Accesorio",
+    "stock": 8,
+    "stock_minimo": 2
+  },
+  {
+    "id": 36,
+    "nombre_producto": "Manoplas de Gel Antideslizante",
+    "categoria": "Accesorio",
+    "stock": 24,
+    "stock_minimo": 6
+  },
+  {
+    "id": 37,
+    "nombre_producto": "Llanta Conti Race King 29",
+    "categoria": "Repuesto",
+    "stock": 10,
+    "stock_minimo": 3
+  },
+  {
+    "id": 38,
+    "nombre_producto": "Soporte Portabidones Carbono",
+    "categoria": "Accesorio",
+    "stock": 28,
+    "stock_minimo": 7
+  },
+  {
+    "id": 39,
+    "nombre_producto": "Tornilleria Variada",
+    "categoria": "Repuesto",
+    "stock": "muchos",
+    "stock_minimo": 5
+  },
+  {
+    "id": 40,
+    "nombre_producto": null,
+    "categoria": "Accesorio",
+    "stock": 10,
+    "stock_minimo": 3
+  },
+  {
+    "id": 41,
+    "nombre_producto": "Llave Inglesa Ajustable",
+    "categoria": "Herramienta",
+    "stock": 8,
+    "stock_minimo": 2
+  },
+  {
+    "id": 42,
+    "nombre_producto": "Aceite de Cadena Wet",
+    "categoria": "Equipamiento",
+    "stock": 15,
+    "stock_minimo": 0
+  },
+  {
+    "id": 43,
+    "nombre_producto": "Kit Parche Camara",
+    "categoria": "Repuesto",
+    "stock": -10,
+    "stock_minimo": 5
+  }
+]
